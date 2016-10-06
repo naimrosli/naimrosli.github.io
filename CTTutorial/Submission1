@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8"/>
+
+	<title></title>
+
+<style type="text/css">
+ 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CBBB9B;
+    font-family: "Helvetica", "Arial";
+}
+#wrapper {
+    width: 960px;
+    height: auto;
+    background-color: #DAD5C1;
+    border-left: 5px Solid;
+    border-right: 5px Solid;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 10px;
+    color: #A09885;
+}
+#header {
+width: 100%;
+height: 100px;
+border-bottom: 30px Solid;
+color: #7c7063;
+}
+#logo {
+float: left;
+margin: 15px 0px 0px 80px;
+}
+#social {
+float: right;
+padding-right: 5px
+margin: 20px 30px 0px 0px;
+}
+#social ul li {
+float: left;
+list-style: none;
+margin: 20px 30px 0px 0px;
+}
+#social img {
+height: 55px;
+width: 55px;
+}
+#sidebar {
+float: left;
+height: 100%;
+width: 275px;
+}
+#menu {
+float: left;
+height: auto;
+width: 200px;
+}
+#menu ul li{
+list-style: none;
+padding: 5px;
+text-align:center;
+}
+#menu ul li a{
+background: #CBBB9B;
+color: #4E4F3E;
+text-decoration: none;
+padding: 10px 0px;
+display: block;
+}
+#menu ul li a:hover {
+list-style: none;
+color: #fff;
+}
+#content {
+float: left;
+height: 100%;
+width: 655px;
+padding-left: 15px;
+letter-spacing: 1;
+color: #57574C;
+border-left: 3px Solid; 
+color: #7c7063;
+}
+h1 {
+text-align: center;
+padding: 5px;
+border-bottom: 1px Solid;
+color: #7c7063;
+}
+p {
+text-indent: 50px;
+line-height: 25px;
+}
+img {
+float: right;
+padding: 0px 0px 5px 5px;
+}
+.top a {
+color: #4E4F3E;
+text-decoration: none;
+}
+div#table {
+    margin: 0px 0px 30px 50px;
+}
+iframe {
+    margin-left: 30px;
+}
+#footer {
+clear: both;
+height: 100%;
+width: 80px;
+color: #57574C;
+border-top: 3px Solid  #7c7063;
+}
+h5{
+text-align: ;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+	<div id="header">
+	<a name="top"></a>
+	  <div id="logo">
+        <img src="https://www.w3newbie.com/wp-content/uploads/boxer_logo.png" width="350" height="80" alt="logo" title="boxer dogs"/>
+                </div> <!---end of logo--->
+         <div id="social">
+	     <ul>
+	     <li><a href="https://www.facebook.com/" target="blank"><img src="https://www.w3newbie.com/wp-content/uploads/facebook.png" alt="facebook" title="facebook"/></a></li>
+	     <li><a href="https://www.twitter.com/" target="blank"><img src="https://www.w3newbie.com/wp-content/uploads/twitter.png" alt="twitter" title="twitter"/></a></li>
+	     <li><a href="https://www.youtube.com/" target="blank"><img src="https://www.w3newbie.com/wp-content/uploads/youtube.png" alt="youtube" title="youtube"/></a></li>
+	     <li><a href="https://www.plus.google.com/" target="blank"><img src="https://www.w3newbie.com/wp-content/uploads/google_plus.png" alt="google_plus" title="google_plus"/></a></li>
+	     </ul>
+	     </div><!---end of social--->
+	     </div><!---end of header--->
+	     
+	     <div id="sidebar">
+	        <div id="menu">
+	     	<ul>
+	     	
+	     	<li><h2><a href="#Intro">Intro</a></h2></li>
+	     	
+	     	<li><h2><a href="#Size">Size</a></h2></li>
+	     	
+	     	<li><h2><a href="#Play">Play</a></h2></li>
+	     	
+	     	<li><h2><a href="#Food">Food</a></h2></li>
+	     	
+	     	</ul>
+	     	
+	     	</div><!---end of menu--->
+	     	</div><!---end of sidebar--->
+	     	 
+	     	 <div id="content">
+
+	     	 <a name="Intro"><h1>Intro</h1></a>
+	     	 <img src="https://www.w3newbie.com/wp-content/uploads/boxer1.png" width="400" height="250" alt="boxer dogs" title="boxer dogs"/>
+	     	 <p>Lorem ipsum dolor sit amet, indoctum philosophia qui id. His quem quaeque et. In duo quaeque inciderint voluptatibus. An vitae aperiri appareat pri, pro aperiri repudiandae ea. Quod quas cum cu.Labore eruditi has et. Te usu meis idque, qui ei nonumy prompta gubergren. Et viris legendos eam, apeirian platonem has ea, in vis case pericula. Tantas persecuti instructior vix at, sit luptatum tacimates maiestatis ne, ad tota mazim sit. Nec esse temporibus et, at pro atomorum intellegebat. Duo no lobortis pericula, justo soleat antiopam ei ius.</p>
+
+	     	 <a name="Size"><h1>Size</h1></a>
+	     	 <img src="https://www.w3newbie.com/wp-content/uploads/boxer2.png" width="400" height="250" alt="boxer dogs" title="boxer dogs"/>
+	     	 <p>Lorem ipsum dolor sit amet, indoctum philosophia qui id. His quem quaeque et. In duo quaeque inciderint voluptatibus. An vitae aperiri appareat pri, pro aperiri repudiandae ea. Quod quas cum cu.Labore eruditi has et. Te usu meis idque, qui ei nonumy prompta gubergren. Et viris legendos eam, apeirian platonem has ea, in vis case pericula. Tantas persecuti instructior vix at, sit luptatum tacimates maiestatis ne, ad tota mazim sit. Nec esse temporibus et, at pro atomorum intellegebat. Duo no lobortis pericula, justo soleat antiopam ei ius.</p>
+
+             <div class="top"><h4><a href="#top">Go To The Top...</a></h4></div>
+
+	     	 <a name="Play"><h1>Play</h1></a>
+	     	 <img src="https://www.w3newbie.com/wp-content/uploads/boxer3.png" width="400" height="250" alt="boxer dogs" title="boxer dogs"/>
+	     	 <p>Lorem ipsum dolor sit amet, indoctum philosophia qui id. His quem quaeque et. In duo quaeque inciderint voluptatibus. An vitae aperiri appareat pri, pro aperiri repudiandae ea. Quod quas cum cu.Labore eruditi has et. Te usu meis idque, qui ei nonumy prompta gubergren. Et viris legendos eam, apeirian platonem has ea, in vis case pericula. Tantas persecuti instructior vix at, sit luptatum tacimates maiestatis ne, ad tota mazim sit. Nec esse temporibus et, at pro atomorum intellegebat. Duo no lobortis pericula, justo soleat antiopam ei ius.</p>
+
+             <div class="top"><h4><a href="#top">Go To The Top...</a></h4></div>
+
+	     	 <a name="Food"><h1>Food</h1></a>
+	     	 <p>Lorem ipsum dolor sit amet, indoctum philosophia qui id. His quem quaeque et. In duo quaeque inciderint voluptatibus. An vitae aperiri appareat pri, pro aperiri repudiandae ea. Quod quas cum cu.Labore eruditi has et. Te usu meis idque, qui ei nonumy prompta gubergren. Et viris legendos eam, apeirian platonem has ea, in vis case pericula. Tantas persecuti instructior vix at, sit luptatum tacimates maiestatis ne, ad tota mazim sit. Nec esse temporibus et, at pro atomorum intellegebat. Duo no lobortis pericula, justo soleat antiopam ei ius.</p>
+	  
+	        <div class="top"><h4><a href="#top">Go To The Top...</a></h4></div>
+
+	        <div id=table>
+	        <table border=1>
+
+	        <tr>
+	        <th> ---------- </th>
+            <th> Meal 1 </th>
+            <th> Meal 2 </th>
+            <th> Meal 3 </th>
+	        </tr>
+
+	        <tr>
+	        <th> Food </th>
+	        <th> Dry </th>
+	        <th> Wet</th>
+	        <th> Snack </th>
+	        </tr>
+
+	        <tr>
+	        <th> Amount </th>
+	        <th> 5oz </th>
+	        <th> 150g </th>
+	        <th> 100g </th>
+	        </tr>
+
+	        </table>
+
+	        </div><!---end of table--->
+
+	        <iframe width="560" height="300" src="http://www.youtube.com/embed/eQQi7eZEje4"frameborder=0 allowfullscreen></iframe>
+
+	        <div class="top"><h4><a href="#top">Go To The Top...</a></h4></div>
+
+	        <div id=footer>2016 Boxer Dog Tutorial Website</br><a href="mailto:email@gmail.com?subject=Boxer Dogs">Send me an email</a></h5></div>
+
+
+	  </div><!---end of content--->
+	  
+	  
+	  
+	  
+	  
+      </div><!---end of wrapper--->
+	
+	
+	
+
+
+
+</body>
+</html>
