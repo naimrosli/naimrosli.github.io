@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+    
+<title></title>
+
+<style type="text/css">
+        
+body {
+    margin: auto;
+    padding: 2px;
+}
+div#container {
+    width: 900px;
+    margin: auto;
+}
+div.header {
+    width: 893px;
+    height: 160px;
+    background-color: whitesmoke;
+    display: inline-flex;
+    border-radius: 10px;
+    border: dotted orange;
+}
+div#logo {
+    margin: auto 30px auto 30px;
+}
+h3#webname {
+    display: inline-block;
+    margin: auto 30px auto 30px;
+    font-size: 50px;
+    font-family: fantasy;
+    -webkit-text-stroke: 1px orange;
+    letter-spacing: 15px;
+    text-align: center;
+}
+div.social {
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    margin: 15px 10px 15px 10px;
+}
+a {
+    margin-top: 5px;
+    display: inline-block;
+    position: relative;
+}
+div#content {
+    width: 70%;
+    height: 525px;
+    margin: 5px auto 0px auto;
+    background-color: whitesmoke;
+    border: dotted orange;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 15px 0px 15px;
+    text-align: center;
+}
+p {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin: 10px;
+    word-spacing: 9px;
+}
+div#posters {
+    margin: 10px;
+}
+div.aside {
+    width: 29%;
+    height: 525px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+div.side {
+    width: 100%;
+    margin: 5px 0px auto 3px;
+    background-color: whitesmoke;
+    border: dotted orange;
+    box-sizing: border-box;
+    padding: 15px;
+}
+div.side:hover {
+	background-color: orange;
+}
+div.box {
+    width: 850px;
+    height: 190px;
+    margin: 25px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+}
+div#smallbox {
+    width: 150px;
+    height: 150px;
+    background-color: whitesmoke;
+    display: inline-block;
+    margin-right: 45px;
+    margin-left: 8px;
+    border: dotted orange;
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+.topcorner {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border: solid orange;
+    border-radius: 10px;
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    top: -17px;
+    right: 18px;
+}
+.bottomcorner {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border: solid orange;
+    border-radius: 10px;
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    bottom: -135px;
+    left: 95px;
+}
+div.formbody {
+    width: 40%;
+    height: 612px;
+    background-color: whitesmoke;
+    border: dotted orange;
+    display: inline-block;
+    margin: 0px 20px 5px 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    left: 5px;
+}
+.fillthebox {
+    margin: 5px;
+    background: white;
+}
+label {
+    display: inline-block;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+input#filltheblank {
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+}
+.clickbutton {
+    margin: 10px;
+}
+h4 {
+    display: inline-block;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: x-large;
+    -webkit-text-stroke: 1px orange;
+}
+input#edit-submit {
+    width: 150px;
+    height: 35px;
+    background-color: lightgrey;
+    font-size: 17px;
+}
+input#edit-submit:hover {
+   background-color: orange;
+}
+div.survey {
+    width: 50%;
+    height: 612px;
+    background-color: whitesmoke;
+    border: dotted orange;
+    display: inline-block;
+    margin: 0px 20px 5px -5px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    left: 15px;
+    vertical-align: top;
+}
+.vote {
+    margin: 10px;
+    background-color: white;
+}
+select {
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 5px;
+}
+div#checkbox {
+    position: relative;
+    right: 20px;
+    display: inline-block;
+    margin: 5px;
+    text-align: justify;
+}
+div#checkbox2 {
+    position: relative;
+    right: 125px;
+    display: inline-block;
+    margin: 5px;
+    text-align: justify;
+}
+.clickbutton2 {
+    margin: 10px;
+    position: relative;
+    top: 20px;
+}
+div#footer {
+    height: 120px;
+    border: dotted orange;
+    margin: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+  
+  <div class="header">
+     
+     <div id="logo"><img src="http://i370.photobucket.com/albums/oo142/Freekill980/OnePiece_zps948feec6.png" width="200px" height="150px" alt="logo" title="Mugiwara">
+     </div>
+
+     <h3 id="webname"> ONE PIECE </h3>
+
+     <div class="social">
+
+     <div id="like"><a href="https://www.facebook.com/" target="blank"><img src="http://www.diresta.com/wp-content/uploads/Facebook-Like-Button-Small.png" title="Like"></a></div>
+
+     <div id="pinterest"><a href="https://www.pinterest.com/" target="blank"><img src="http://www.lizdaponte.ca/wp-content/uploads/2016/08/pinterest-logo-updated.png" title="pinterest"></a></div>
+
+
+     <div id="tweet"><a href="https://www.twitter.com/" target="blank"><img src="http://daniemon.com/blog/wp-content/uploads/2012/09/twitter_32.png" alt="twitter" title="Twitter"/></a></div>
+
+     </div>
+     
+  </div> 
+
+    <div id="content">
+
+     <p>One Piece follows the adventures of Monkey D. Luffy, a young man whose body gained the properties of rubber after unintentionally eating a Devil Fruit. With his diverse crew of pirates, named the Straw Hat Pirates, Luffy explores the Grand Line in search of the world's ultimate treasure known as "One Piece" in order to become the next King of the Pirates. </p>
+
+     <div id="posters"><img src="https://s-media-cache-ak0.pinimg.com/564x/9b/bf/0b/9bbf0b93b1aa2d20945873a87dd97866.jpg" width="550px" height="345px"/></div>
+     
+  </div>
+
+  <div class="aside">
+
+  	<div class="side" id="luffy">Monkey D. Luffy</div>
+  	<div class="side" id="zoro">Roronoa Zoro</div>
+  	<div class="side" id="sanji">Sanji</div>
+  	<div class="side" id="ussop">Ussop</div>
+  	<div class="side" id="nami">Nami</div>
+  	<div class="side" id="chopper">Tony Tony Chopper</div>
+  	<div class="side" id="robin">Nico Robin</div>
+  	<div class="side" id="franky">Franky</div>
+  	<div class="side" id="brooke">Soul King Brooke</div>
+
+  </div>
+
+  <div class="box">
+
+    <div id="smallbox">
+      <div class="topcorner">A</div>
+      <div class="bottomcorner">B</div>
+    </div>
+
+    <div id="smallbox">
+      <div class="topcorner">A</div>
+      <div class="bottomcorner">B</div>
+    </div>
+
+    <div id="smallbox">
+      <div class="topcorner">A</div>
+      <div class="bottomcorner">B</div>
+    </div>
+
+    <div id="smallbox">
+      <div class="topcorner">A</div>
+      <div class="bottomcorner">B</div>
+    </div>
+
+  </div>
+
+  <div class="formbody">
+
+      <div class="fillthebox">
+
+   	  <label>Name</label><br>
+  	  <input id="filltheblank" placeholder="Enter your first name" type="text">
+
+      </div>
+
+     <div class="fillthebox">
+
+   	 <label>Email</label><br>
+  	 <input id="filltheblank" placeholder="Enter your email" type="text">
+
+     </div>
+
+     <div class="fillthebox">
+
+     <label>Password</label><br>
+     <input id="filltheblank" placeholder="Enter your password" type="text">
+
+     </div>
+
+
+     <div class="clickbutton">
+   	 <input id="edit-submit" value="Login" type="submit">
+
+     </div>
+
+     <h4> -OR- </h4>
+
+     <div class="fillthebox">
+
+   	  <label>Name</label><br>
+  	  <input id="filltheblank" placeholder="Enter your first name" type="text">
+
+      </div>
+
+     <div class="fillthebox">
+
+   	 <label>Email</label><br>
+  	 <input id="filltheblank" placeholder="Enter your email" type="text">
+
+     </div>
+
+     <div class="clickbutton">
+   	 <input id="edit-submit" value="Register" type="submit">
+
+     </div>
+
+ </div>
+
+     <div class="survey">
+
+         <div class="vote">
+
+          <label>My media preference</label><br>
+
+     	  <label>Anime</label>
+     	  <input id="radio-button" name="1" value="Anime" checked="" type="radio">
+
+     	  <label>Manga</label>
+     	  <input id="radio-button" name="1" value="Manga" type="radio">
+
+         </div>
+
+         <div class="vote">
+
+         <label>My Favourite Character</label><br>
+
+         <select name="character">
+            <option value="-0">~please select~</option>
+		    <option value="luffy"><img src=""></option>
+			<option value="zoro">Roronoa Zoro</option>
+			<option value="sanji">Sanji</option>
+			<option value="ussop">Ussop</option>
+			<option value="nami">Nami</option>
+			<option value="chopper">Tony Tony Chopper</option>
+			<option value="robin">Nico Robin</option>
+			<option value="franky">Franky</option>
+			<option value="brooke">Soul King Brooke</option>
+		 </select>
+
+		 </div>
+
+		 <div class="vote">
+
+		 <label>I like One Piece series because:</label><br>
+
+		 <div id="checkbox">
+
+		 <input value="storyline" type="checkbox">
+		 <label>The storyline</label>
+		 <br>
+		 <input value="character" type="checkbox">
+		 <label>Characters in One Piece</label>
+		 <br>
+		 <input value="drawings" type="checkbox">
+		 <label>The drawings</label>
+		 <br>
+		
+		 </div>
+
+		 </div>
+
+		 <div class="vote">
+
+		 <label>I want updates on One Piece series:</label><br>
+
+		 <div id="checkbox2">
+
+		 <input id="radio-button" name="2" value="yes" checked="" type="radio">
+		 <label>Yes</label>
+		 <br>
+		 <input id="radio-button" name="2" value="no" type="radio">
+		 <label>No</label>
+		 		 
+		 </div>
+
+		 </div>
+
+		 <div class="clickbutton2">
+
+   	     <input id="edit-submit" value="Submit" type="submit">
+
+         </div>
+
+
+     </div>
+    
+
+  
+  
+
+<div id="footer">Footer</div>  
+
+</div><!---end--->
+
+</body>
+</html>
