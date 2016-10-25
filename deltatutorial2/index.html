@@ -13,7 +13,7 @@
 <style type="text/css">
         
 body {
-    margin: auto;
+    * margin: auto;
     padding: 2px;
 }
 div#container {
@@ -140,6 +140,19 @@ div#smallbox {
     position: relative;
     top: -17px;
     right: 18px;
+/* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: height;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 5s;
+/* Standard syntax */
+    transition-property: height;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.topcorner:hover {
+    height: 100px;
 }
 .bottomcorner {
     width: 15px;
@@ -152,6 +165,19 @@ div#smallbox {
     position: relative;
     bottom: -135px;
     left: 95px;
+    /* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: height;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 5s;
+/* Standard syntax */
+    transition-property: height;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.bottomcorner:hover {
+    height: : -100px;
 }
 div.formbody {
     width: 40%;
@@ -252,11 +278,29 @@ div#special {
     left: 255px;
     bottom: 20px;
 }
-div#footer {
-    width: 840px;
-    height: 120px;
+.three {
+    width: 804px;
+    height: 90px;
     border: dotted orange;
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
     margin: 20px;
+    columns: 3;
+    box-sizing: content-box;
+    position: relative;
+    left: 5px;
+}
+div#footer {
+   width: 804px;
+    height: 90px;
+    border: dotted orange;
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
+    margin: 20px;
+    columns: 3;
+    box-sizing: content-box;
+    position: relative;
+    left: 5px;
 }
 
 </style>
@@ -473,12 +517,19 @@ div#footer {
          <img src="http://1.bp.blogspot.com/_X4ITNMBMNEo/TQOeNiuKttI/AAAAAAAAAW0/FOxc9_75x6E/s1600/image004.gif">
          </div>
 
-    </div>  
+    </div>
 
+         <div class="three">
 
-<div id="footer"></div>  
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+      
+        </div>
 
-</div><!---end--->
+        <div id="footer"></div>  
+
+</div>
+
+    
 
 </body>
 </html>
