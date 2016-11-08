@@ -1,0 +1,70 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+#home{
+	background: url(../images/homebg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+#home .container {
+    padding: 200px 0;
+}
+
+#home h1{
+	font-size: 72px;
+	color: white;
+	font-weight: 100;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 20px;
+
+}
+
+#home h3{
+	font-size: 24px;
+	color: white;
+	font-weight: 100;
+}
+
+#home i{
+	font-size: 40px;
+	color: white;
+	margin: 20px;
+}
+#about {
+	background: url(../images/aboutbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+#about .container {
+    padding: 200px 0;
+}
+
+#about h3{
+	font-size: 30px;
+	color: white;
+	font-weight: 100;
+	border-bottom: 2px solid white;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 20px;
+
+}
+
+#about h5{
+	font-size: 24px;
+	color: white;
+	font-weight: 100;
+}
+
