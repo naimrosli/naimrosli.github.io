@@ -1,0 +1,179 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+#home{
+	background: url(../images/homebg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+#home .container {
+    padding: 200px 0;
+}
+
+#home h1{
+	font-size: 72px;
+	color: white;
+	font-weight: 100;
+	border-top: 2px solid white;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 20px;
+
+}
+#about hr{
+	color: white;
+	width: 10%;
+}
+
+#home h3{
+	font-size: 24px;
+	color: white;
+	font-weight: 100;
+}
+
+#home i{
+	font-size: 40px;
+	color: white;
+	margin: 20px;
+}
+#about {
+	background: url(../images/aboutbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+#about h3{
+	font-size: 30px;
+	color: white;
+	font-weight: 100;
+	border-bottom: 2px solid white;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 20px;
+
+}
+
+#about h5 {
+    font-size: 24px;
+    color: white;
+    font-weight: 100;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#services h3{
+    color: #873fb5;
+    font-weight: 100;
+}
+
+#services .services-title{
+    padding:50px; 
+}
+
+#services .container {
+    padding: 20px 20px;
+}
+
+#services i{
+    font-size: 48px; 
+    color: #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    padding-right: 20px;
+    float: left;
+}
+
+#services h2{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#services h4{
+    color: #873fb5;
+    margin-top: -10px;
+    
+}
+#services .service-mini{
+   display: inline-block;
+   margin-top: -20px;
+   padding-left: 20px; 
+}
+#services .container.coll{
+   padding-bottom:  40px; 
+}
+
+#skills {
+	background: url(../images/skillsbg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 467px;
+
+}
+#skills .skill-left {
+    padding: 110px 0;
+
+}
+
+#skills h2 {
+	font-weight: 900;
+	font-size: 48px;
+	color: #fff;
+}
+
+#skills h3 {
+	font-weight: 100;
+	font-size: 24px;
+	color: #fff;
+	padding-bottom: 20px;
+	margin-top: -10px;
+}
+
+#skills p {
+	color: #fff;
+	padding-bottom: 20px;
+	font-weight: 100;
+}
+
+#skills .button1 {
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	padding-bottom: 10px;
+
+}
+#skills .button1:hover {
+	color: #873fb5;
+	border-bottom: 3px solid #873fb5;
+
+}
+
+#skills a .button2{
+	font-size: 16px;
+	color: white;
+	margin-left: 15px;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+#skills .button2:hover{
+	color: #873fb5;
+	border-bottom: 3px solid #873fb5;
+
+}
+
+
+
+
+
+
+
+
+
+
