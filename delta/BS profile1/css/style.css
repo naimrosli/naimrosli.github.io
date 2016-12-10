@@ -1,0 +1,289 @@
+/*-------first---------*/
+
+section#top {
+    height: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: goldenrod;
+}
+
+div#header {
+    width: auto;
+    height: 230px;
+    padding: 10px;
+    text-align: center;
+    background: url(../image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quotes {
+    position: relative;
+    top: 65px;
+    display: inline-block;
+}
+
+.quotes > h1 {
+    font-family: 'Heebo';
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    color: goldenrod;
+    text-shadow: 1px 0 black;
+}
+
+.quotes > h5 {
+    font-family: 'Heebo';
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: silver;
+    text-shadow: 1px 0 #000;
+}
+
+
+/*-------second---------*/
+
+section#second {
+    height: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: goldenrod;
+}
+
+div#bs-example-navbar-collapse-1 {
+    position: relative;
+    top: -1px;
+    right: 30px;
+}
+
+nav#navibar {
+    height: 60px;
+    margin-bottom: 0;
+    padding: 3px;
+    border-radius: 0;
+    background: black;
+}
+
+ul#navi-small {
+    position: relative;
+    bottom: 5px;
+    display: inline-block;
+}
+
+ul#navi-small > li {
+    margin: 6px;
+}
+
+ul#navi-small > li > a {
+    font-family: 'Heebo';
+    color: goldenrod;
+}
+
+.nav > li > a:hover {
+    text-decoration: none;
+    border: 1px solid;
+    background: transparent;
+}
+
+button.navbar-toggle.collapsed {
+    position: relative;
+    top: -2px;
+    margin: 10px;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: goldenrod;
+}
+
+section#third {
+    height: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: goldenrod;
+}
+
+div#profile {
+    height: 383px;
+    padding: 10px;
+    text-align: center;
+    background: url(../image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img#naim {
+    position: relative;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    margin: 10px 0 10px 0;
+    border: 1px solid transparent;
+}
+
+h1.myname {
+    font-family: 'Arimo';
+    font-weight: 700;
+    position: relative;
+    top: 40px;
+    display: block;
+    color: #000;
+}
+
+h3.title {
+    font-family: 'Arimo';
+    font-weight: 400;
+    position: relative;
+    top: 40px;
+    display: block;
+    color: #000;
+}
+
+section#fourth {
+    height: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: goldenrod;
+}
+
+h3.titletwo {
+    font-family: 'Arimo';
+    font-weight: 400;
+    position: relative;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #000;
+}
+
+#ecomskills hr {
+    color: #000;
+    width: 15%;
+    position: relative;
+    border: 2px solid #000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+div#skillbox {
+    margin-bottom: 20px;
+}
+
+.service-mini > h4 {
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Heebo';
+}
+
+.service-mini > p {
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+section#fifth {
+    height: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: goldenrod;
+}
+
+div#other {
+    padding: 10px;
+    background: url(../image/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3.titlethree {
+    font-family: 'Arimo';
+    font-weight: 400;
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: goldenrod;
+}
+
+#other hr {
+    color: #000;
+    width: 15%;
+    position: relative;
+    border: 2px solid goldenrod;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+ul#otherskill {
+    list-style: none;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: goldenrod;
+    list-style-position: inside;
+    list-style-type: square;
+    padding-left: 60px;
+    margin: 10px;
+}
+
+#list {
+    display: inline-block;
+    background: rgba(238, 238, 238, 0.12);
+    padding: 15px;
+    border: 1px solid rgba(86, 61, 124, .2);
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+section#sixth {
+    height: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: goldenrod;
+}
+
+div#education {
+    padding: 10px;
+}
+
+i#hat {
+    font-size: 4em;
+    position: relative;
+    top: 25px;
+    margin: 10px 0 10px 0;
+    border: 1px solid transparent;
+}
+
+h2.master {
+    font-family: 'Arimo';
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+    display: block;
+    color: #000;
+}
+
+h3.uni {
+    font-family: 'Arimo';
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+    display: block;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+section#seventh {
+    height: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: goldenrod;
+}
